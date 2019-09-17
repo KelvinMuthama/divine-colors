@@ -1,0 +1,189 @@
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(16, minmax(1.2em, 1fr));
+    font-size: 1.5rem;
+    font-weight: bold;
+    max-width: 50%;
+    grid-gap: .05em;
+    margin-top: -5px;
+    margin-left: -7px; 
+    margin-bottom: 1.2em;     
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 2em;
+    grid-auto-rows: 12em;
+    font-size: 1.2rem;
+        
+}
+
+.green > ul {
+    border: solid green;  
+    border-radius: .5em;
+    background-color: green;
+    color: white;
+}
+
+.amber > ul {
+    border: solid #ffbf00;
+    border-radius: 1em;
+    background-color: #ffbf00;
+    color: #3C1A5B;
+}
+
+.blue > ul {
+    border: solid blue;
+    border-radius: 1em;
+    background-color: blue;
+    color: white;
+}
+
+.royal-blue > ul {
+    border: solid royalblue;
+    border-radius: 1em;
+    background-color: royalblue;
+    color: white;
+}
+
+.brown > ul {
+    border: solid #9B4F04;
+    border-radius: 1em;
+    background-color: #9B4F04;
+    color: white;
+}
+
+.gold > ul {
+    border: solid #ffd700;
+    border-radius: 1em;
+    background-color: #ffd700;
+    color: #292826;
+}
+
+.orange > ul {
+    border: solid orange;
+    border-radius: 1em;
+    background-color: orange;
+    color: #141A46;
+}
+
+.purple > ul {
+    border: solid purple;
+    border-radius: 1em;
+    background-color: purple;
+    color: whitesmoke;
+}
+
+.red > ul {
+    border: solid red;
+    border-radius: 1em;
+    background-color: red;
+    color: #1D1B1B;
+}
+
+.yellow > ul {
+    border: solid yellow;
+    border-radius: 1em;
+    background-color: yellow;
+    color: black;
+}
+
+.gray > ul {
+    border: solid gray;
+    border-radius: 1em;
+    background-color: gray;
+    color: white;
+}
+
+.black > ul {
+    border: solid black;
+    border-radius: 1em;
+    background-color: black;
+    color: white;
+}
+
+.a {
+    background-color: #A2C523;
+    
+    
+}
+
+.b {
+    background-color:  #7D4427;
+    color: white;
+}
+
+.c {
+    background-color: #20948B;
+}
+
+.d {
+    background-color: #FFBB00;
+}
+
+.e {
+    background-color: #3F681C;
+    color: white;
+}
+
+.f {
+    background-color: #8D230F;
+    color: white;
+}
+
+.g {
+    background-color: #1995AD;
+}
+
+.h {
+    background-color: #F0810F;
+    
+    
+}
+
+.i {
+    background-color: purple;
+    color: white;
+    
+    
+}
+
+.j {
+    background-color: #F52549;
+}
+
+.k {
+    background-color: #2E2300;
+    color: white;
+}
+
+.l {
+    background-color: #CB0000;
+}
+
+.m {
+    background-color: #1E656D;
+    color: white;
+}
+
+.n {
+    background-color:  #000000;
+    color: white
+}
+
