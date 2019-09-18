@@ -15,10 +15,9 @@ body {
 
 .header {
     display: grid;
-    grid-template-columns: repeat(16, minmax(1.2em, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(1.2em, 1fr));
     font-size: 1.5rem;
     font-weight: bold;
-    max-width: 50%;
     grid-gap: .05em;
     margin-top: -5px;
     margin-left: -7px; 
@@ -28,10 +27,17 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 2em;
+    column-gap: 1em;
+    row-gap: 4em;
     grid-auto-rows: 12em;
     font-size: 1.2rem;
+    
+    
         
+}
+
+.container > div > ul{
+    height: 15em;
 }
 
 .green > ul {
@@ -39,6 +45,7 @@ body {
     border-radius: .5em;
     background-color: green;
     color: white;
+   
 }
 
 .amber > ul {
@@ -46,6 +53,7 @@ body {
     border-radius: 1em;
     background-color: #ffbf00;
     color: #3C1A5B;
+    
 }
 
 .blue > ul {
